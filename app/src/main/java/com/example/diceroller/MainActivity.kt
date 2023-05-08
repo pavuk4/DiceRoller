@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Roll the dice and update the screen with the result.
      */
+
     private fun rollDice() {
         val dice = Dice(6)
         val diceRoll = dice.roll()
