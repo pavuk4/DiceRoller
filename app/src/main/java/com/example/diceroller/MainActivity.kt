@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         val diceRoll = dice.roll()
 
         val diceImage: ImageView = findViewById(R.id.imageView)
-
         val drawableResource = when (diceRoll) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
